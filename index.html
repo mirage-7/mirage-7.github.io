@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>我的个人网站</title>
+    <meta name="description" content="一个简洁有设计感的个人主页" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700&family=Work+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="backdrop" aria-hidden="true"></div>
+
+    <header class="hero">
+      <p class="eyebrow reveal">HELLO, I AM</p>
+      <h1 class="reveal">张晨</h1>
+      <p class="intro reveal">
+        我是一名前端开发者，关注体验设计与工程落地，喜欢把复杂问题做成优雅的产品。
+      </p>
+      <div class="actions reveal">
+        <a class="btn primary" href="#projects">看作品</a>
+        <a class="btn ghost" href="#contact">联系我</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="panel reveal">
+        <h2>关于我</h2>
+        <p>
+          3 年 Web 开发经验，擅长 React、TypeScript 和现代化前端工程。
+          我相信“好用”与“好看”同样重要。
+        </p>
+      </section>
+
+      <section id="projects" class="panel reveal">
+        <h2>精选项目</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>数据看板系统</h3>
+            <p>为运营团队搭建实时监控平台，提升分析效率 40%。</p>
+          </article>
+          <article class="card">
+            <h3>企业官网重构</h3>
+            <p>重构前端架构并优化性能，首页加载速度提升 55%。</p>
+          </article>
+          <article class="card">
+            <h3>设计系统组件库</h3>
+            <p>落地组件规范和主题能力，减少重复开发成本。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="panel reveal">
+        <h2>联系我</h2>
+        <ul class="contact-list">
+          <li>邮箱：hello@example.com</li>
+          <li>GitHub：github.com/example</li>
+          <li>城市：上海</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer reveal">© 2026 张晨 · Built with HTML/CSS/JS</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
